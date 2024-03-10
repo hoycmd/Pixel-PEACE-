@@ -1,0 +1,26 @@
+{
+    "Name": "<color=red>РЕДАКТОР</a><b>(улучшенный редактор API 2.0)</b>",
+    "Description": "<b>Редактор|Создавай/строй,сам свои карты в одиночку , или с друзьями</b>",
+    "StartClientVersion": 334,
+    "ApiVersion": 2,
+    "MapLists": [
+      {
+        "MapListId": 8401,
+        "Name": "<b>ЗАГОТОВКИ ДЛЯ СОЗДАНИЯ КАРТ</b>"
+      }
+    ],
+    "Parameters": {
+      "Bool": [
+        {
+          "Name": "RedTeam",
+          "DisplayName": "Teams/Red",
+          "Default": true
+        },
+        {
+          "Name": "BlueTeam",
+          "DisplayName": "Teams/Blue",
+          "Default": true
+        }
+      ]
+    }
+}
